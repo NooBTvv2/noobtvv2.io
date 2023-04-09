@@ -1,0 +1,29 @@
+var {
+    text-align: center;
+    background-color: orange; 
+    font-style: normal;
+    color: #202529;
+    font-weight: bolder; 
+    border-radius: 2px; 
+    height: auto; 
+    width: auto; 
+    padding: 0px 5px 0px 5px; 
+    font-size: 25px;
+}
+
+.but { 
+    width: 35px;
+    height: 35px;
+    background-color: rgb(26, 29, 36);
+    border-radius: 10px;
+    color: rgb(109, 112, 114);
+    font-weight: bold;
+    border-style: solid;
+    border-color: #13171a;
+    text-align: left;
+}
+
+.center {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

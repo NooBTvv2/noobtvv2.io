@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="web-styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Bootstrap Experience</title>
+
+    <link href="/Bootstraps/cssboot.css" rel="stylesheet">   
+    <script src="/Bootstraps/jsboot.js"></script>   
+  
+    <style>
+        ul {
+          list-style-type: none;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+        }
+
+        a {
+          font-weight: bolder;
+          text-align: left;
+        }
+
+        p {
+          font-size: 17px;
+          font-weight: bold;
+          color: rgb(107, 104, 104);
+        }
+
+        h1 {
+          font-size: 40px;
+          color: white;
+        }
+
+        body {
+          height: 100vh;
+          width: 100vw;
+          background-color: rgb(28, 31, 36);
+          margin: 0rem;
+          overflow-y: show;
+          overflow-x: hidden;
+        }
+    </style>
+
+  </head>
+ 
+  <!--Navigation Section -->
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="index.html" 
+          class="navbar-brand mx-4" 
+          style="font-weight:bold; font-size: 25px;">
+          
+          Meme <var>hub</var>
+        </a>
+
+        <button 
+          class="navbar-toggler mx-3" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNavAltMarkup" 
+          aria-controls="navbarNavAltMarkup" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+        
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav px-4">
+            <a class="nav-item nav-link" href="index.html" style="font-weight: bold">● School</a>
+            <a class="nav-item nav-link" href="Programming.html" style="font-weight: bold">● Programming</a>
+            <a class="nav-item nav-link" href="SomeEcards.html" style="font-weight: bold">● E Cards</a>
+            <a class="nav-item nav-link" href="About.html" style="font-weight: bold">● About</a>
+          </div>
+        </div>
+    </nav>
+<!--Math.max(Math.min(nextUncPerc, 0), -100);-->
+  <main style="margin: 17px">
+    <section class="py-5 text-center container">             
+          <h1 class="fw-dark"><strong>Juicy Hot Memes!</strong></h1>   
+          <p id="demo">School is both Purgatory on Earth and a bunch of laughs. These funny school memes show all the funny things that I think of living that student life.</p>      
+    </section>
+
+    <section class="py-5 container">             
+      <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" onmousedown="mouseDown(e)">
+        <link rel="stylesheet" type="text/css" href="cards-form.css">
+  
+        <img id="fade" class="image" data-image-name="Meme1" src="/Memes/Package/bootstrap.jpg" draggable="false"></img>
+        <img class="image" data-image-name="Meme2" src="/Memes/Package/procrastination.png" draggable="false"/>
+        <img class="image" data-image-name="Meme3" src="/Memes/Package/project.jpg" draggable="false"/>
+        <img class="image" data-image-name="Meme4" src="/Memes/Package/website.jpg" draggable="false"/>
+        <img class="image" data-image-name="Meme5" src="/Memes/Package/khub.jpg" draggable="false"/>
+        <img class="image" data-image-name="Meme6" src="/Memes/Package/cactus.png" draggable="false"/>
+        <img class="image" data-image-name="Meme7" src="/Memes/Package/python.jpg" draggable="false"/>
+        <img class="image" data-image-name="Meme8" src="/Memes/Package/day.jpg" draggable="false"/>
+      </div>   
+    </section>
+
+    <a id="yt-link" class="meta-link">
+      <span>Back to top</span>
+    </a>
+    
+    <script src="functionality.js"></script>
+  </main>
+</html>
